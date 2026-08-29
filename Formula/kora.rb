@@ -1,28 +1,28 @@
 class Kora < Formula
   desc "Agent-first programming language"
   homepage "https://github.com/ImAbhishekTomar/kora-lang"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ImAbhishekTomar/kora-lang/releases/download/v0.1.0/kora-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0286a6b7ea86740b6aa154e687e02322b7ce2efd557edfcfd955d441ccc7d6c3"
+      url "https://github.com/ImAbhishekTomar/kora-lang/releases/download/v0.2.0/kora-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "640345f3551f7d221c6ddc37cc30df3a4da8bbc438b164da13aca7145704d561"
     end
     on_intel do
-      url "https://github.com/ImAbhishekTomar/kora-lang/releases/download/v0.1.0/kora-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b9479e1648338f6e8a8c112e68e52f18c2450768493ec88b5dbf3f6b4615dc60"
+      url "https://github.com/ImAbhishekTomar/kora-lang/releases/download/v0.2.0/kora-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fc9f8767f143fb79ab4fd42b649c00cd326190104e607435ae0fe6d7d33ab479"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ImAbhishekTomar/kora-lang/releases/download/v0.1.0/kora-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f01b8d99aa90cbaee19283a6f207892e19fdd13f591183adb4c33c671661b4d5"
+      url "https://github.com/ImAbhishekTomar/kora-lang/releases/download/v0.2.0/kora-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "db6179c38620ee53d2b61077a6ec49c0944ae6c985c73da9149b3a7edd892b19"
     end
     on_intel do
-      url "https://github.com/ImAbhishekTomar/kora-lang/releases/download/v0.1.0/kora-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cce5f3119c96b2f524df16ccd740a9eb69b50cf690760db3f982555a8d7bc5a4"
+      url "https://github.com/ImAbhishekTomar/kora-lang/releases/download/v0.2.0/kora-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bf492547b6ec726d9ce1e5e5d777c2263724f4abc56321e26fda5e90ba1e1554"
     end
   end
 
